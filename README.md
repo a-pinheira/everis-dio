@@ -4,12 +4,11 @@
 >
 > - [ ] Prazo: até 20/12/2020 </center>
 
-```
-<p align="center">
-<img src="https://media.giphy.com/media/l4FGxMCzaWASB4SUE/giphy.gif" width="310" height="300" /> </p>
-```
 
-[![Lady Java Technology ](http://img.youtube.com/vi/Mt7zsortIXs/0.jpg)](http://www.youtube.com/watch?v=Mt7zsortIXs "Lady Java Technology" width="300" height="280")
+
+[![Lady Java Technology ](http://img.youtube.com/vi/Mt7zsortIXs/0.jpg)](http://www.youtube.com/watch?v=Mt7zsortIXs "Lady Java Technology")
+
+
 
 ### 1. Lógica de programação essencial
 
