@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width initial-scale=1.8">
+        <link rel="shortcut icon" type="image/x-png" href="img/icn-instagram.png">
+        <!--<link rel="shortcut icon" type="image/x-png" href="img/logo-i.jpg">-->
+        <link rel="stylesheet" href="style.css">
+        <title>Instagram</title>
+    </head>
+
+    <body>
+        <!--DIV que será o container pai, onde fica todo o conteúdo: login e celular -->
+        <!-- <main class="instagram-wrapper"> 
+            <figure class="instagram-phone">
+                <img class="rotate-img" src="img/instagram-f.png" alt="Celular Instagram" >
+                <img class="rotate" src="img/instagram-m.png" alt="Instagram Portfolio" > 
+            </figure>
+        </main>    -->
+        <div class="instagram-wrapper"> 
+            <div class="instagram-phone">
+                <figure id="img1"> 
+                    <img src="img/instagram-f.png" alt="Celular Instagram" >
+                </figure>
+                <figure id="img2"> 
+                    <img src="img/instagram-m.png" alt="Celular Instagram" >
+                </figure>
+               <!-- <img class="rotate" src="img/instagram-m.png" alt="Instagram Portfolio" > -->
+            </div>
+        
+            <div class="instagram-continue">
+                <!--Existem 3 container, será usado flex-->
+                <!--o ideal é fazer uma classe e reutilizá-la em vários componentes diferente-->
+                <div class="group">
+                    <img src="img/instagram-log.png" alt="Logo Instagram" class="instagram-logo">
+                 <!--   <img src="img/instagram-log.png" alt="Logo Instagram">-->
+                    <div class="photo-profile">
+                        <img src="img/photo-p.jpg" alt="Foto Perfil">
+                    </div>
+                    <a href="#" class="instagram-login">Continue como @s1m0netti</a>
+                    <a href="#" class="instagram-logout">Remover Conta</a>
+                </div>
+                <!--Segundo container/group só de texto-->
+                <div class="group"> 
+                    <p class="not-account">Não é @s1m0netti</p>
+                    <p class="not-account">
+                        <span class="link-blue">Alternar contar</span>
+                        ou 
+                        <span class="link-blue">Inscreva-se </span>
+                    </p>
+                </div>
+                <!--Não tem borda nem verground-->
+                <div class="get-the-app">
+                    <p class="get-app">Baixe o aplicativo</p>
+                    <div class="download">
+                        <a href="#" class="app-download">
+                            <img src="img/icon-apple.png" alt="Download Apple Store" height="40" width="100">
+                        </a>
+                        <a href="#" class="app-download" > 
+                            <img src="img/icon-google.png" alt="Download Google Store" width="100" height="40">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </body>
+</html>

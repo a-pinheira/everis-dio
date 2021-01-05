@@ -1,0 +1,201 @@
+/*Resetar alguns estilos*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'tobono', sans-serif;
+    font-size: 14px;
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.instagram-wrapper{
+    /*display: flex: é o container, que ocupa o espaço necessário:*/
+    /* tds os itens ficarão alinhados*/
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /*tamanho em relação ao body*/
+    width: 60%;
+    height: 100vh;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img{
+    height: 50rem;
+    
+}
+
+.instagram-phone:hover{
+    transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);   
+}
+.instagram-continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+/*
+.instagram-wrapper figure.rotate {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 450px;  Larura
+    height: 180px;  Altura
+    box-shadow: 0.8 0.9 15 rgb(17, 16, 16);
+    transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+}
+*/
+figure#img1{
+    top: 0px;
+    left: 50px;
+    z-index: 1;
+}
+figure#img2{
+    top: 20px;
+    left: 70px;
+    z-index: 2;
+    border-radius:10%;
+}
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+/*Tamanhos dos containers*/
+.group:nth-child(1){
+    min-height: 19rem;
+}
+
+.instagram-logo{
+    height: 3rem;
+}
+
+.photo-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+.photo-profile img{
+    height: 6rem;
+}
+
+/*Estilizar link e botoes*/
+.instagram-login{
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout{
+    color: #0095f6;
+    margin-top: 1rem;
+
+}
+
+.not-account{
+    color: rgb(160, 160, 160);
+}
+
+.link-blue {
+    color: #0095f6;
+}
+
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.donwload {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    
+}
+/*
+.app-download:nth-child(1){
+    background-image: url('./img/icon-apple.png');
+}
+  
+
+.app-download:nth-child(2){
+    background-image: url('./img/icon-google.png');
+} */
+
+/*Tratar a pagina e deixá-la responsiva*/
+/*Setar uma media querie para celular*/
+@media (max-width: 1024px){
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+/*Setar uma media querie para tablet*/
+@media (max-width: 650px) {
+    body {
+    background-color: #ffffff;    
+
+    }
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+
+    .group{
+        border: 1px solid transparent;
+
+    }
+}
